@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h2, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f4f4; */
+     background:  rgb(225, 160, 178); 
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Add styles for the college details */
+.college-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Add any additional styles as needed */
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the colleges container */
+#collegesContainer {
+    display: grid;
+    gap: 20px;
+}
+
+/* Style for each college card */
+.college-details {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.college-details:hover {
+    transform: scale(1.05);
+}
+
+.college-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.college-details p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Style for the no colleges message */
+#noCollegesMessage {
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Style for the logout button */
+.logout-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color:  #45a049;
+}

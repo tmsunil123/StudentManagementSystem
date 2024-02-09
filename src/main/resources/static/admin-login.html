@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+
+<form id="adminLoginForm">
+<h1>Admin login</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <table>
+        <!-- Your table content here -->
+        <tr id="errorMessageRow" style="color: red; display: none;">
+            <td colspan="2" id="errorMessageCell"></td>
+        </tr>
+    </table>
+
+    <button type="button" onclick="adminLogin()">Login</button>
+    <button type="button" onclick="logout()" class="logout-btn">Back</button>
+    
+</form>
+
+<script src="admin-script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* /* Reset some default styles
+body, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+Style for the student table
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#studentTable th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#studentTable tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+Style for the form
+#editForm {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+Style for the update button
+#updateButton {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#updateButton:hover {
+    background-color: #27ae60;
+}
+
+Style for the logout button
+.logout-btn {
+    background-color:#4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color:#008000;
+}
+ 
+  */
+  /* Reset some default styles */
+body, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+   /*  background-color: #f4f4f4; */
+     background:  rgb(225, 160, 178); 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the student table */
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#studentTable th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#studentTable tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style for the form */
+#editForm {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for the update button */
+#updateButton {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#updateButton:hover {
+    background-color: #27ae60;
+}
+
+/* Style for the logout button */
+.logout-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #008000;
+}
+
+/* Additional styles for the new labels and inputs */
+#editForm label {
+    font-weight: bold;
+}
+
+#editForm span {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+}
+  

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student College Registration</title>
+    <link rel="stylesheet" href="index-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="welcomeMessage">Welcome to College Registration</h2>
+        
+        <form id="registrationForm">
+            <label for="college">Select College:</label>
+            <select id="college" name="college" required>
+                <option value="" disabled selected>Select College</option>
+                <option value="CMR institute of technology">CMR institute of technology</option>
+       			<option value="CVR institute of technology">CVR institute of technology</option>
+        		<option value="SIT institute of technology">SIT institute of technology</option>
+       			<option value="VTU institute of technology">VTU institute of technology</option>
+       			<option value="SMR institute of technology">SMR institute of technology</option>
+            </select>
+
+            <label for="branch">Select Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="" disabled selected>Select Branch</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+        		<option value="ME">ME</option>
+       		    <option value="CE">CE</option>
+            </select>
+
+            <label for="collegeCategory">Select College Category:</label>
+            <select id="collegeCategory" name="collegeCategory" required>
+                <option value="" disabled selected>Select Category</option>
+                <option value="autonomous">Autonomous</option>
+                <option value="nonAutonomous">Non-Autonomous</option>
+            </select>
+
+            <label for="hostelFacility">Select Hostel Facility:</label>
+            <select id="hostelFacility" name="hostelFacility" required>
+                <option value="" disabled selected>Select Hostel Facility</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="yearsOfAdmission">Select Years of Admission:</label>
+<!--           <input type="number" id="yearsOfAdmission" name="yearsOfAdmission" min="1" required>
+ -->            
+        	 <select id="yearsOfAdmission" required>
+        		<option value="">Select Year</option>
+        		<option value="2020">2020</option>
+        		<option value="2021">2021</option>
+        		<option value="2022">2022</option>
+       			<option value="2023">2023</option>
+       		    <option value="2024">2024</option>
+  			  </select>
+  			  
+  			   <table>
+        <!-- Your table content here -->
+        <tr id="messageRow" style="display: none;">
+            <td id="messageCell"></td>
+        </tr>
+    </table>
+
+            <button id="submitButton" type="button" onclick="validateAndSubmit()">Submit</button>
+            
+            <button type="button" onclick="goBack()" class="logout-btn">Back</button>
+            
+            
+        </form>
+
+        <p id="validationMessage" class="error"></p>
+    </div>
+
+    <script src="index-script.js"></script>
+</body>
+</html>
