@@ -33,6 +33,8 @@ import com.student.main.service.StudentRegistrationService;
 
 @RestController
 @RequestMapping("studentRegistrationcontroller")
+//@CrossOrigin(origins="http://localhost:3000")
+//Controller class
 public class StudentRegistrationController {
 	
 	@Autowired
